@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  height: 95vh;
+}
+.boxs{
+ margin: auto;
+}
+.box-1{
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50px;
+  transition: 0.7s ease;
+}
+.box-1:hover{
+  background-color: aqua;
+  transform: scale(1.2);
+}
+.box-1:active{
+  border-color: chartreuse;
+  transform: rotate(180deg);
+  box-shadow: 0 10px 8px 10px aqua;
+}
+.box-2{
+  background-color:  cornflowerblue;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 50px;
+  transition: 0.7s ease;
+}
+.box-2:hover{
+  background-color: aquamarine;
+  transform: scale(1.2);
+}
+.box-3{
+  background-color: deeppink; 
+  width: 250px;
+  height: 250px;
+  transition: 0.7s ease;
+}
+.box-3:hover{
+  background-color: bisque;
+  transform: scale(1.2);
+}
+.box-4{
+  background-color: lawngreen;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+  transition: 0.7s ease;
+}
+.box-4:hover{
+  background-color: blue;
+  transform: scale(1.2);
+}
+.box-5{
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 50px;
+  top: 270px;
+  transition: 0.7s ease;
+}
+.box-5:hover{
+  background-color: royalblue;
+  transform: scale(1.2);
+}
+.box-6{
+  background-color: gold;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 270px;
+  transition: 0.7s ease;
+}
+.box-6:hover{
+  background-color: darkgreen;
+  transform: scale(1.2);
+}
+.box-7{
+  background-color: magenta;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50px;
+  top: 535px;
+  transition: 0.7s ease;
+}
+.box-7:hover{
+  background-color: lightsalmon;
+  transform: scale(1.2);
+}
+.box-8{
+  background-color: indigo;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 585px;
+  top: 273px;
+  transition: 0.7s ease;
+}
+.box-8:hover{
+  background-color: darkred;
+  transform: scale(1.2);
+}
+.box-9{
+  background-color: darkslategrey;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 25px;
+  transition: 0.7s ease;
+}
+.box-9:hover{
+  background-color: black;
+  transform: scale(1.2);
+}
